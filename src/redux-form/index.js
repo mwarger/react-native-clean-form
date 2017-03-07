@@ -1,9 +1,9 @@
-import createInputs from './createInputs'
-import createInputCreator from './createInputCreator'
-import { Field } from 'redux-form'
+import createInputs from './createInputs';
+import createInputCreator from './createInputCreator';
+import { Field } from 'redux-form';
 
-export {
+export const {
   Input,
   Select,
-  Switch
-} from createInputs(createInputCreator(Field))
+  Switch,
+} = createInputs(createInputCreator(Field));
